@@ -5,7 +5,7 @@ import data from "/data.js";
 
 export default function App() {
 	const travels = data.map((card) => {
-		return <Cards key={card.title} {...card} />;
+		return <Cards key={card.key} {...card} />;
 	});
 
 	return (

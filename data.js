@@ -1,5 +1,6 @@
 export default [
 	{
+		key: 1,
 		title: "Mount Fuji",
 		location: "Japan",
 		startDate: "12 Jan, 2021",
@@ -10,6 +11,7 @@ export default [
 			"https://i.pinimg.com/474x/da/4f/f4/da4ff49c91730d286f444110fb20c1ae.jpg",
 	},
 	{
+		key: 2,
 		title: "Naples",
 		location: "Italy",
 		startDate: "30 Jan, 2021",
@@ -20,6 +22,7 @@ export default [
 			"https://i.pinimg.com/736x/76/cf/14/76cf141b4a1c2a89ebdc012af9428d51.jpg",
 	},
 	{
+		key: 3,
 		title: "Iceland",
 		location: "Iceland",
 		startDate: "8 Ago, 2023",
