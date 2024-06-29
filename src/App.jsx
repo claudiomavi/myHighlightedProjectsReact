@@ -1,4 +1,5 @@
 import Header from "/src/components/Header";
+import Footer from "/src/components/Footer";
 import Cards from "/src/components/Cards";
 import data from "/data.js";
 
@@ -11,6 +12,7 @@ export default function App() {
 		<div>
 			<Header />
 			{travels}
+			<Footer />
 		</div>
 	);
 }

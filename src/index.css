@@ -36,10 +36,6 @@ body {
 	background-color: #ffffff;
 }
 
-.cards:last-child {
-	border-radius: 0 0 8px 8px;
-}
-
 .cards--left {
 	margin-right: 19px;
 }
@@ -85,6 +81,18 @@ body {
 .cards--description {
 	font-size: 0.65rem;
 	line-height: 150%;
+}
+
+.footer {
+	background-color: #f55a5a;
+	text-align: right;
+	color: #ffffff;
+	padding: 16px;
+	border-radius: 0 0 8px 8px;
+}
+
+.footer--title {
+	font-size: 0.9rem;
 }
 
 @media (max-width: 560px) {
