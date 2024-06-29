@@ -47,6 +47,7 @@ body {
 .cards--left img {
 	width: 125px;
 	border-radius: 5px;
+	box-shadow: 0 0 10px #2b283a;
 }
 
 .cards--position {

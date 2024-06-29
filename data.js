@@ -21,4 +21,15 @@ export default [
 		imageUrl:
 			"https://i.pinimg.com/736x/76/cf/14/76cf141b4a1c2a89ebdc012af9428d51.jpg",
 	},
+	{
+		title: "Iceland",
+		location: "Iceland",
+		googleMapsUrl: "https://maps.app.goo.gl/u8SFkPEuzewGNgE58",
+		startDate: "8 Ago, 2023",
+		endDate: "28 Ago, 2023",
+		description:
+			"L’Islanda, una nazione nordica, è un'isola caratterizzata da spettacolari paesaggi con vulcani, geyser, terme e campi di lava.",
+		imageUrl:
+			"https://i0.wp.com/lewiscarlyle.com/wp-content/uploads/2018/10/Bruarfoss-Vertical-Prime.jpg?fit=530%2C800&ssl=1",
+	},
 ];
