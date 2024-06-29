@@ -6,7 +6,7 @@ export default function Cards(props) {
 			<div className="cards--left">
 				<img src={props.imageUrl} alt={props.title} />
 			</div>
-			<div className="cards-right">
+			<div className="cards--right">
 				<div className="cards--position">
 					<img src={position} alt="" />
 					<p>{props.location}</p>
@@ -18,10 +18,10 @@ export default function Cards(props) {
 					</a>
 				</div>
 				<h1>{props.title}</h1>
-				<p>
+				<p className="cards--date">
 					{props.startDate} - {props.endDate}
 				</p>
-				<p>{props.description}</p>
+				<p className="cards--description">{props.description}</p>
 			</div>
 		</div>
 	);

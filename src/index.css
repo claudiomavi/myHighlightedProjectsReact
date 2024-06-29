@@ -5,6 +5,13 @@
 	font-family: "Inter", sans-serif;
 }
 
+body {
+	max-width: 550px;
+	margin: 10vh auto;
+	border-radius: 8px;
+	background: #2b283a;
+}
+
 .header {
 	background-color: #f55a5a;
 	display: flex;
@@ -12,9 +19,83 @@
 	justify-content: center;
 	color: #ffffff;
 	padding: 16px;
+	border-radius: 8px 8px 0 0;
 }
 
 .header--title {
 	font-size: 0.9rem;
 	margin-left: 7px;
+}
+
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	color: #2b283a;
+	background-color: #ffffff;
+}
+
+.cards:last-child {
+	border-radius: 0 0 8px 8px;
+}
+
+.cards--left {
+	margin-right: 19px;
+}
+
+.cards--left img {
+	width: 125px;
+	border-radius: 5px;
+}
+
+.cards--position {
+	display: flex;
+	align-items: center;
+}
+
+.cards--position * {
+	margin-right: 4px;
+}
+
+.cards--position p {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-right: 12px;
+	font-size: 0.65rem;
+}
+
+.cards--position a {
+	font-size: 0.65rem;
+	color: #918e9b;
+}
+
+.cards--right h1 {
+	font-size: 1.5rem;
+	margin: 4px auto 20px auto;
+}
+
+.cards--date {
+	font-size: 0.65rem;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+
+.cards--description {
+	font-size: 0.65rem;
+	line-height: 150%;
+}
+
+@media (max-width: 560px) {
+	body {
+		max-width: 350px;
+	}
+
+	.cards {
+		padding: 20px;
+	}
+
+	.cards--left img {
+		width: 100px;
+	}
 }

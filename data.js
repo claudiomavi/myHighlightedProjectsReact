@@ -8,6 +8,17 @@ export default [
 		description:
 			"Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
 		imageUrl:
-			"https://plus.unsplash.com/premium_photo-1661878091370-4ccb8763756a?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://i.pinimg.com/474x/da/4f/f4/da4ff49c91730d286f444110fb20c1ae.jpg",
+	},
+	{
+		title: "Naples",
+		location: "Italy",
+		googleMapsUrl: "https://maps.app.goo.gl/v9gQpXYTV1CgPkND8",
+		startDate: "30 Jan, 2021",
+		endDate: "8 Feb, 2021",
+		description:
+			"La città di Napoli, nell'Italia meridionale, sorge nel cuore dell'omonima baia accanto al Vesuvio, il vulcano attivo ancora oggi e noto per aver distrutto l'antica città romana di Pompei.",
+		imageUrl:
+			"https://i.pinimg.com/736x/76/cf/14/76cf141b4a1c2a89ebdc012af9428d51.jpg",
 	},
 ];
