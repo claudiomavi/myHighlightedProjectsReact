@@ -2,7 +2,6 @@ export default [
 	{
 		title: "Mount Fuji",
 		location: "Japan",
-		googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
 		startDate: "12 Jan, 2021",
 		endDate: "24 Jan, 2021",
 		description:
@@ -13,7 +12,6 @@ export default [
 	{
 		title: "Naples",
 		location: "Italy",
-		googleMapsUrl: "https://maps.app.goo.gl/v9gQpXYTV1CgPkND8",
 		startDate: "30 Jan, 2021",
 		endDate: "8 Feb, 2021",
 		description:
@@ -24,7 +22,6 @@ export default [
 	{
 		title: "Iceland",
 		location: "Iceland",
-		googleMapsUrl: "https://maps.app.goo.gl/u8SFkPEuzewGNgE58",
 		startDate: "8 Ago, 2023",
 		endDate: "28 Ago, 2023",
 		description:

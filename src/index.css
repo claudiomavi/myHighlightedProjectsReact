@@ -37,13 +37,22 @@ body {
 }
 
 .cards--left {
+	position: relative;
 	margin-right: 19px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.cards--left img {
+.site--img {
 	width: 125px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px #2b283a;
+}
+
+.plus--button {
+	position: absolute;
+	cursor: pointer;
 }
 
 .cards--position {
@@ -104,7 +113,7 @@ body {
 		padding: 20px;
 	}
 
-	.cards--left img {
+	.site--img {
 		width: 100px;
 	}
 }
