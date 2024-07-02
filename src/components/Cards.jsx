@@ -12,11 +12,7 @@ export default function Cards(props) {
 					className="plus--button">
 					<img src={plusButton} alt="+ para ir en otra página" />
 				</a>
-				<img
-					src={`/src/assets/${props.imageUrl}`}
-					alt={props.title}
-					className="site--img"
-				/>
+				<img src={props.imageUrl} alt={props.title} className="site--img" />
 			</div>
 			<div className="cards--right">
 				<div className="cards--position">
