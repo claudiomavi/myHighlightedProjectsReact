@@ -17,7 +17,7 @@ export default [
 		description:
 			"Calculadora hecha como tarea para mi grado superior, a parte de las funcionalidades me centré mucho en el diseño",
 		imageUrl: "calculadora.JPG",
-		siteUrl: "https://claudiocalculadora.netlify.app/",
+		siteUrl: "https://imgur.com/s2qRUQN",
 	},
 	{
 		key: 3,
