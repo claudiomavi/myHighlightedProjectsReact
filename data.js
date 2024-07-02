@@ -1,5 +1,3 @@
-import mySystem from "https://mysystemnapoli.netlify.app/";
-
 export default [
 	{
 		key: 1,
@@ -9,7 +7,7 @@ export default [
 		description:
 			"Página web principal para una empresa italiana de mosquiteras. Falta material para acabarla pero en agosto tengo reunión con ellos para aclarar los últimos detalles.",
 		imageUrl: "/src/assets/mySystemNapoli.jpg",
-		siteUrl: { mySystem },
+		siteUrl: "https://mysystemnapoli.netlify.app/",
 	},
 	{
 		key: 2,
