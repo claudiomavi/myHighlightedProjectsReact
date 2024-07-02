@@ -16,7 +16,7 @@ export default [
 		date: "16 Abr, 2024",
 		description:
 			"Calculadora hecha como tarea para mi grado superior, a parte de las funcionalidades me centré mucho en el diseño",
-		imageUrl: "https://imgur.com/s2qRUQN",
+		imageUrl: "https://i.imgur.com/s2qRUQN.jpg",
 		siteUrl: "https://claudiocalculadora.netlify.app/",
 	},
 	{
