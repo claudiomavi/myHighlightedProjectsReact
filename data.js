@@ -6,7 +6,7 @@ export default [
 		date: "15 Mar, 2024",
 		description:
 			"Página web principal para una empresa italiana de mosquiteras. Falta material para acabarla pero en agosto tengo reunión con ellos para aclarar los últimos detalles.",
-		imageUrl: "/public/mySystemNapoli.jpg",
+		imageUrl: "/src/public/mySystemNapoli.jpg",
 		siteUrl: "https://mysystemnapoli.netlify.app/",
 	},
 	{
@@ -16,7 +16,7 @@ export default [
 		date: "16 Abr, 2024",
 		description:
 			"Calculadora hecha como tarea para mi grado superior, a parte de las funcionalidades me centré mucho en el diseño",
-		imageUrl: "/public/calculadora.JPG",
+		imageUrl: "/src/public/calculadora.JPG",
 		siteUrl: "https://claudiocalculadora.netlify.app/",
 	},
 	{
@@ -26,7 +26,7 @@ export default [
 		date: "30 Abr, 2024",
 		description:
 			"Página web principal para una marca personal, estamos desarrollando una versión mejorada incluyendo también React.",
-		imageUrl: "/public/taniaMirasol.JPG",
+		imageUrl: "/src/public/taniaMirasol.JPG",
 		siteUrl: "https://taniamirasolanton.netlify.app/",
 	},
 	{
@@ -36,7 +36,7 @@ export default [
 		date: "4 Jun, 2024",
 		description:
 			"Aplicación también para móvil donde puedes compartir en directo tu lista de la compra con otras personas.",
-		imageUrl: "/public/shoppingApp.JPG",
+		imageUrl: "/src/public/shoppingApp.JPG",
 		siteUrl: "https://shoppingclaudiodemo.netlify.app/",
 	},
 ];
