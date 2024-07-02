@@ -1,6 +1,6 @@
 {
-	"name": "Travel Journal",
-	"short_name": "Travel",
+	"name": "Proyectos Destacados Claudio Marino",
+	"short_name": "Proyectos Claudio",
 	"icons": [
 		{
 			"src": "/src/assets/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#F55A5A",
-	"background_color": "#ffffff",
+	"theme_color": "#ffde59",
+	"background_color": "#116245",
 	"display": "standalone"
 }
