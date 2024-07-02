@@ -1,3 +1,8 @@
+:root {
+	--green: #116245;
+	--yellow: #ffde59;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,15 +14,20 @@ body {
 	max-width: 550px;
 	margin: 10vh auto;
 	border-radius: 8px;
-	background: #2b283a;
+	background-color: lightyellow;
+}
+
+#root {
+	box-shadow: 0 0 10px #2b283a;
+	border-radius: 8px;
 }
 
 .header {
-	background-color: #f55a5a;
+	background-color: var(--green);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #ffffff;
+	color: var(--yellow);
 	padding: 16px;
 	border-radius: 8px 8px 0 0;
 }
@@ -79,6 +89,7 @@ body {
 .cards--right h1 {
 	font-size: 1.5rem;
 	margin: 4px auto 20px auto;
+	text-transform: capitalize;
 }
 
 .cards--date {
@@ -93,9 +104,9 @@ body {
 }
 
 .footer {
-	background-color: #f55a5a;
+	background-color: var(--green);
 	text-align: right;
-	color: #ffffff;
+	color: var(--yellow);
 	padding: 16px;
 	border-radius: 0 0 8px 8px;
 }
