@@ -1,5 +1,15 @@
 export default [
 	{
+		key: 6,
+		title: "quizzical game",
+		lenguages: "html-css-javascript-react",
+		date: "25 Jul, 2024",
+		description:
+			"Quiz hecho con React donde he utilizado también una API para las preguntas.",
+		imageUrl: "https://imgur.com/omodrya.jpg",
+		siteUrl: "https://quizzicalclaudio.netlify.app/",
+	},
+	{
 		key: 5,
 		title: "tenzie game",
 		lenguages: "html-css-javascript-react",
