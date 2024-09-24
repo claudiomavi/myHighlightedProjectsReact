@@ -1,5 +1,14 @@
 export default [
 	{
+		key: 8,
+		title: 'color scheme generator',
+		lenguages: 'html-css-javascript-API',
+		date: '24 Sep, 2024',
+		description: 'Generador de paletas de colores utilizando una API.',
+		imageUrl: 'https://imgur.com/2hJaa5P.jpg',
+		siteUrl: 'https://colorschemegeneratorclaudio.netlify.app/',
+	},
+	{
 		key: 7,
 		title: 'twimba social',
 		lenguages: 'html-css-javascript-uuid',
