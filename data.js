@@ -1,5 +1,15 @@
 export default [
 	{
+		key: 9,
+		title: 'movies watchlist',
+		lenguages: 'html-tailwind-javascript-APIs',
+		date: '08 Oct, 2024',
+		description:
+			'Primera página con TailwindCSS donde he utilizado también APIs.',
+		imageUrl: 'https://imgur.com/Wqaj2Dg.jpg',
+		siteUrl: 'https://moviewatchlistclaudio.netlify.app/',
+	},
+	{
 		key: 8,
 		title: 'color scheme generator',
 		lenguages: 'html-css-javascript-API',
