@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -118,7 +118,12 @@ body {
 
 @media (max-width: 560px) {
 	body {
-		max-width: 350px;
+		margin: auto;
+	}
+
+	.header,
+	.footer {
+		border-radius: 0;
 	}
 
 	.cards {
