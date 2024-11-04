@@ -56,7 +56,7 @@ export default [
 	},
 	{
 		key: 2,
-		title: 'página personal Tania Mirasol',
+		title: 'personal page Tania Mirasol',
 		lenguages: 'html-css-javascript',
 		date: '30 Apr, 2024',
 		description:
@@ -66,7 +66,7 @@ export default [
 	},
 	{
 		key: 1,
-		title: 'calculadora',
+		title: 'calculator',
 		lenguages: 'html-css-javascript',
 		date: '16 Apr, 2024',
 		description:
