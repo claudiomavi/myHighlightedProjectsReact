@@ -39,8 +39,6 @@ body {
 
 .cards {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	padding: 40px;
 	color: #2b283a;
 	background-color: #ffffff;
