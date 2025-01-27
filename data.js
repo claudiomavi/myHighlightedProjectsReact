@@ -1,5 +1,14 @@
 export default [
 	{
+		key: 9,
+		title: 'assembly endgame',
+		lenguages: 'react',
+		date: '27 Gen, 2025',
+		description: 'Final big task of a intermediate course about React JS.',
+		imageUrl: 'https://imgur.com/ktYfez7.jpg',
+		siteUrl: 'https://assemblyendgameclaudio.netlify.app/',
+	},
+	{
 		key: 8,
 		title: 'movies watchlist',
 		lenguages: 'html-tailwind-javascript-APIs',
