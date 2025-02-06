@@ -1,5 +1,14 @@
 export default [
 	{
+		key: 10,
+		title: 'memory game',
+		lenguages: 'react',
+		date: '6 Feb, 2025',
+		description: 'Memory game created as a final project for a React course.',
+		imageUrl: 'https://imgur.com/aguu2lp.jpg',
+		siteUrl: 'https://memorygameclaudio.netlify.app/',
+	},
+	{
 		key: 9,
 		title: 'assembly endgame',
 		lenguages: 'react',
