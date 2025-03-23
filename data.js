@@ -79,7 +79,7 @@ export default [
 		date: '30 Apr, 2024',
 		description:
 			'Main website for a personal brand, currently developing an improved version that also includes React.',
-		imageUrl: 'https://i.imgur.com/oZsl9qm.jpeg',
+		imageUrl: 'https://i.imgur.com/oZsl9qm.jpg',
 		siteUrl: 'https://taniamirasolanton.netlify.app/',
 	},
 	{
