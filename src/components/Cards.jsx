@@ -1,23 +1,25 @@
 import position from '/src/assets/Fill 219.svg'
 import plusButton from '/src/assets/Frame 1.svg'
 
-export default function Cards(props) {
+export default function Cards({ siteUrl, imageUrl, lenguages, date, description, title }) {
 	return (
 		<div className="cards">
 			<div className="cards--left">
 				<a
-					href={props.siteUrl}
+					href={siteUrl}
 					target="_blank"
 					rel="noopener noreferrer"
 					className="plus--button">
-					<img
-						src={plusButton}
-						alt="+ to go into another page"
-					/>
+					{siteUrl && (
+						<img
+							src={plusButton}
+							alt="+ to go into another page"
+						/>
+					)}
 				</a>
 				<img
-					src={props.imageUrl}
-					alt={props.title}
+					src={imageUrl}
+					alt={title}
 					className="site--img"
 				/>
 			</div>
@@ -27,11 +29,11 @@ export default function Cards(props) {
 						src={position}
 						alt=""
 					/>
-					<p>{props.lenguages}</p>
+					<p>{lenguages}</p>
 				</div>
-				<h1>{props.title}</h1>
-				<p className="cards--date">Last Updated: {props.date}</p>
-				<p className="cards--description">{props.description}</p>
+				<h1>{title}</h1>
+				<p className="cards--date">Last Updated: {date}</p>
+				<p className="cards--description">{description}</p>
 			</div>
 		</div>
 	)
